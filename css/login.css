@@ -1,0 +1,75 @@
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ccaed3;
+}
+
+.logo {
+  color: white;
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size: 2em;
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  margin-top: 20px;
+  margin-left: 78em;
+}
+input[type="button" i] {
+  padding: 6px 20px 6px 20px;
+  border-radius: 10%;
+  color: white;
+  background-color: #d842bd;
+}
+
+.login {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  align-content: center;
+  margin-left: 27em;
+  margin-top: 2em;
+  background-color: white;
+  height: 24em;
+  width: 30em;
+  border-radius: 3%;
+}
+h3 {
+  position: absolute;
+  top: 0;
+  margin-top: 3em;
+  margin-left: 8.5em;
+  font-size: 1.5em;
+  color: blue;
+}
+form,
+label input {
+  display: inline-block;
+  margin-left: 5em;
+}
+
+input[type="submit" i] {
+  position: absolute;
+  margin-left: 9em;
+  top: 0;
+  margin-top: 20em;
+  padding: 6px 20px 6px 20px;
+  border-radius: 10%;
+  color: white;
+  background-color: #3633f7;
+}
+
+input[type="text" i] {
+  width: 20em;
+  border-radius: 8%;
+  margin-bottom: 20px;
+}
+
+input[type="password" i] {
+  width: 20em;
+  border-radius: 8%;
+}
