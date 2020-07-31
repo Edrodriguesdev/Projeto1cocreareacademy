@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap');
+
+.barPesquisa{
+    background:#FFFFFF;
+    border: none;
+    width:50%;
+    height:10%;
+    border-radius:72px;
+    box-shadow: 8px 14px 30px rgba(85, 56, 238, 0.16);
+}
+#hashtag{
+    font-size: 190%;
+    opacity: 31%;
+    border:none;
+    border-style: none;
+    font-family: 'Rubik', sans-serif;
+    text-align: left;
+    margin: 15px;
+    outline: none;
+}
+#botao3{
+    background: url('../imagens hashtag finder/icon-search.svg');
+    border: none;
+    width: 29px;
+    height: 29px;
+    margin: 20px;
+    margin-left: 55px;
+    float: left;
+    cursor: pointer;
+}
