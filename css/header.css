@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+header{
+    position: absolute;
+    font-family: 'Rubik';
+    width: 100%;
+    height: 7%;
+    display: flex;
+    display: flex;   
+    align-items: center;
+    justify-content: left;
+}
+#logo1{
+    position: relative;
+}
+#logo2{
+    position: relative;
+}
+.botao{
+    justify-content: left;
+}
+#botaosobre{
+    background: #D842BD 0% 0% no-repeat padding-box;
+    background-image: url('../imagens hashtag finder/icon-info-circle.svg');
+    background-position: left;
+    color: #ffffff;
+    font-family: 'Rubik';
+    width: 120px;
+    height: 30px;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0px 3px 6px #5538EE29;
+    cursor: pointer;
+}
+#botaologin{
+    background: #3633F7 0% 0% no-repeat padding-box;
+    background-image: url('../imagens hashtag finder/icon-user-alt.svg');
+    background-position: left;
+    color: #ffffff;
+    font-family: 'Rubik';
+    width: 120px;
+    height: 30px;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0px 3px 6px #5538EE29;
+    cursor: pointer;
+}

@@ -6,7 +6,7 @@
     width:50%;
     height:10%;
     border-radius:72px;
-    box-shadow: 8px 14px 30px rgba(85, 56, 238, 0.16);
+    box-shadow: 0px 15px 30px 2px rgba(85, 56, 238, 0.16);
 }
 #hashtag{
     font-size: 190%;
@@ -19,10 +19,10 @@
     outline: none;
 }
 #botao3{
-    background: url('../imagens hashtag finder/icon-search.svg');
+    background: url('../imagens hashtag finder/icon-search.svg') no-repeat;
     border: none;
-    width: 29px;
-    height: 29px;
+    width: 30px;
+    height: 30px;
     margin: 20px;
     margin-left: 55px;
     float: left;
