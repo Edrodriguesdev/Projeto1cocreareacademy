@@ -1,0 +1,35 @@
+/*classe da imagem*/
+.divLeft{
+	width:49.5%;
+	height:250px;	
+	top:0;
+	left:0;
+	opacity: 1;
+	position:relative;
+	
+}
+/*com o seletor chamo, faço referencia através do id a minha tag de imagem*/
+#photo {
+    width: 1900px;
+    height: 250px;
+}
+
+#spaceText{
+	padding-right: 16px;
+}
+
+/*classe do texto, posicionando o texto sobre a tela*/
+.textDiv{	
+	top:130px;
+	left:100px;
+	width:631px;
+	height:98px;
+	
+	text-align: left;
+	color:var(--unnamed-color-ffffff);
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	font: Bold 30px/35px Rubik;
+	opacity: 1;
+	position: absolute;
+}
