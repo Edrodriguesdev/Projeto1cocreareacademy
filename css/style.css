@@ -39,6 +39,7 @@
 
 /*inicio da parte do Felipe*/
 
+/* configuração da div pai onde está a div da descrição e div da imagem*/
 #sobre{
 	display: flex;
 	flex-direction: row;
@@ -48,67 +49,24 @@
 	margin: 80px auto 80px auto;
 	padding: 0px 0px 0px 0px;
 }
-
+/*definição do tamanho da div da descrição*/
 #descricao{
 	width: 500px;
 }
+/* caracteristicas do texto do titulo e paragráfo */
 #descricao>h2{
 	font: Bold 35px/35px Rubik;
 	color: #3634f7;
 	width: 1920px;
 }
+
 #descricao>p{
 	font-family: sans-serif;
 	line-height: 30px;
-	text-align: justify;
+	text-align: left;
 }
 
+/* ajuste da posição da imagem em relação ao topo pai*/
 #imagemSobre{
-	margin-top: 50px;
-}
-
-#quemSomos{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
-	width: 1920px;
-	margin: 80px auto 80px auto;
-}
-
-#quem{
-	font: Bold 25px/35px Rubik;
-	color: #3634f7;
-	width: 1920px;
-}
-#equipe{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	width: 1200px;
-	margin: 80px auto 80px auto;
-	padding: 0px 0px 0px 0px;
-
-}
-
-.integrantesDaEquipe{
-	box-shadow: 0px 5px 10px  rgb(218, 218, 218);
-	border-radius: 10px ;
-	width: 250px;
-	height: 320px;
-	text-align: center;
-	padding: 10px 10px 10px 10px;
-	
-}
-
-.integrantesDaEquipe>img{
-	border-radius: 50%;
-	position: relative;
-	margin: auto;
-}
-
-.integrantesDaEquipe>h2{
-	position: relative;
-	margin-top: 10px;
-	font-family: sans-serif;
+	margin-top: 30px;
 }
