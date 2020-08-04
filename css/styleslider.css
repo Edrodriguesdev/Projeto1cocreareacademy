@@ -93,13 +93,10 @@ font-weight: bold;
 }
 
 .flexImg{
-	
 	max-width: 1400px;
 	display: flex;
 
 }
-
-
 
 .imgSingle{
 	width: 100%;
