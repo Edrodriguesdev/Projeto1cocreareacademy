@@ -86,14 +86,14 @@ font-weight: bold;
 
 /**estilizando o slider de imagens**/
 .sessaoSlider{
-	max-width:1400px;
+	max-width:1686px;
 	display: flex;
 	margin: 0 auto;
 	align-items: center;
 }
 
 .flexImg{
-	max-width: 1400px;
+	max-width: 1686px;
 	display: flex;
 
 }
@@ -106,6 +106,7 @@ font-weight: bold;
 	background-repeat: no-repeat;
 	border:10px solid white;
 	border-radius: 21px;
+	opacity: 1;
 }
 
 
@@ -130,6 +131,63 @@ font-weight: bold;
 	font-size: 21px;
 }
 
+/**Estilizando sessão tweets usuarios **/
+.tweetUsuarios{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	flex-wrap: wrap;
+	max-width: 1686px;
+	margin: 100px auto 10px auto;
+}
+
+.tweet{
+	align-items: center;
+	display: flex;
+	flex-flow: row wrap;
+	margin: 20px 0;
+	max-width: 735px;
+	max-height: 230px;
+	border: 1px solid #5538EE24;
+	border-radius: 15px;
+	box-shadow: 0px 5px 10px #5538EE14;
+}
+
+.tweet img{
+	position: relative;
+	top: 35px;
+	left: 20px;
+	max-width: 82px;
+	max-height: 82px;
+}
+
+.tweet h1{
+	font-size: 27px;
+	padding-left: 50px;
+	opacity: 1;
+}
+
+.tweet h3{
+	padding-left: 15px;
+	font-size: 20px;
+	color: #292929;
+	opacity: 0.43;
+}
+
+.tweet p{
+	display: block;
+	padding:0 82px 0 135px;
+	width:100%;
+	max-height: 92px;
+}
+
+.tweet button{
+	font-size: 20px;
+	padding:30px 30px 30px 135px;
+	color: #3634F7;
+	background-color: white;
+	border:none;
+}
 
 @media screen and (max-width:1280px){
 	.flexImg{
