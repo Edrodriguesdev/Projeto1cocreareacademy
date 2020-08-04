@@ -3,12 +3,14 @@
 header{
     position: absolute;
     font-family: 'Rubik';
-    width: 100%;
+    width: 1920px;
     height: 7%;
-    display: flex;
-    display: flex;   
-    align-items: center;
-    justify-content: left;
+    margin: auto;    
+    display: flex;  
+    justify-content: space-between;
+}
+#logo{
+    text-decoration: none;
 }
 #logo1{
     position: relative;
@@ -16,13 +18,17 @@ header{
 #logo2{
     position: relative;
 }
-.botao{
-    justify-content: left;
+#menu{
+    display: flex;
+    justify-content: space-between;
+}
+.botao b {
+    margin-left: 20px;
 }
 #botaosobre{
     background: #D842BD 0% 0% no-repeat padding-box;
     background-image: url('../imagens hashtag finder/icon-info-circle.svg');
-    background-position: left;
+    background-position: 25px;
     color: #ffffff;
     font-family: 'Rubik';
     width: 120px;
@@ -35,8 +41,9 @@ header{
 #botaologin{
     background: #3633F7 0% 0% no-repeat padding-box;
     background-image: url('../imagens hashtag finder/icon-user-alt.svg');
-    background-position: left;
+    background-position: 25px;
     color: #ffffff;
+    margin-left: 25px;
     font-family: 'Rubik';
     width: 120px;
     height: 30px;
