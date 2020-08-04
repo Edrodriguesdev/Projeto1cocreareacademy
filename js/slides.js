@@ -2,11 +2,23 @@ $(function(){
 	$('.flexImg').slick({
 		arrows: true,
 		dots:true,
-  		infinite: true,
+  		infinite: false,
 		speed: 300,
 		slidesToShow: 5,
-		slidesToScroll:5,
+		slidesToScroll:3,
 			responsive:[
+				{
+					breakpoint: 1280,
+					settings: {
+					arrows: true,
+					dots:true,
+					infinite: false,
+					speed: 300,
+					slidesToShow: 4,
+					slidesToScroll:4,
+				}
+
+				},
 				{
 					breakpoint: 768,
 					settings: {

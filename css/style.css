@@ -12,7 +12,7 @@
    		text-align: center;
    		position: absolute;
 		margin: 0 auto;
-		left: 50%;
+		left:45%;
    		bottom: 0;
    }
 
@@ -50,7 +50,7 @@
 	color: white;
 	border: none;
   	background-color: white;
-  	width:400px;
+  	width:120px;
 	height:64px;
 	margin-top: 7%;
   	border-radius:32px;
@@ -63,7 +63,7 @@
   	background-color: white;
 	border: none;
 	color: white;
-  	width:400px;
+  	width:120px;
 	height:64px;
 	margin-top: 7%;
   	border-radius:32px;
@@ -130,4 +130,58 @@ font-weight: bold;
 .texto .usuarioPost{
 	font-weight: bolder;
 	font-size: 21px;
+}
+
+
+@media screen and (max-width:1280px){
+	.flexImg{
+	margin: 0 auto;
+	max-width: 1000px;
+	display: flex;
+	}
+
+	.imgSingle{
+	max-width:250px;
+	max-height:250px;
+	
+	}
+
+}
+
+
+@media screen and (max-width:768px){
+
+	.flexImg{
+	margin: 0 auto;
+	max-width: 600px;
+	display: flex;
+	}
+
+	.imgSingle{
+	max-width:200px;
+	max-height: 200px;
+	
+	}
+
+	.slick-dotted ul{
+   		list-style-type: none;
+   		text-align: center;
+   		position: absolute;
+		margin:0 auto;
+   		bottom:0;
+   }
+
+	 .slick-dotted li{
+   		display: inline-block;
+   		margin: 0 2px;
+   }
+
+	.texto .nomeUsuario{
+		font-size: 13px;
+}
+
+	.texto .usuarioPost{
+		font-weight:normal;
+		font-size: 14px;
+}
 }
