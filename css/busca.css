@@ -4,9 +4,6 @@
     box-sizing: border-box;
     padding: 0;
 }
-body{
-    height: 1500px;
-}
 header{
     position: fixed;
     font-family: 'Rubik';
@@ -112,46 +109,49 @@ h4{
 }
 #pesq{
     width: 100%;
+    display: flex;
     justify-content: center;
-    margin-top: -40px;
+    margin-top: -50px;
     position: relative;
 }
 .barPesquisa{
     background:#FFFFFF;
     border: none;
-    margin: auto;
-    width: 700px;
+    border-radius:72px;
+    width: 50%;
     position: relative;
     height: 73px;
-    border-radius:72px;
+    border-style: none;
+    margin-top: 20px;
     box-shadow: 0px 15px 30px rgba(85, 56, 238, 0.16);
 }
 #hashtag{
-    font-size: 190%;
-    opacity: 31%;
-    border:none;
-    width: 550px;
+    background:#FFFFFF;
+    font-size: 2em;
+    opacity: 30%;
+    border:black;
+    width: 75%;
     position: relative;
     border-style: none;
     font-family: 'Rubik', sans-serif;
     text-align: left;
-    margin: 15px;
+    margin-top: 20px ;
     outline: none;
 }
 #botao3{
     background: url('../imagens hashtag finder/icon-search.svg') no-repeat;
     border: none;
-    width: 30px;
+    width: 10%;
     position: relative;
+    margin-top: 25px ;  
     height: 30px;
-    margin: 20px;
     margin-left: 55px;
     float: left;
     outline: none;
     cursor: pointer;
 }
 footer{
-    height: 6%;
+    height: 90px;
     background: #D842BD 0% 0% no-repeat padding-box;
     display: flex;   
     align-items: center;
