@@ -1,18 +1,21 @@
 /*inicio da parte do Rodrigo*/
+
 /*classe da imagem*/
 .divLeft{
-	width:49.5%;
-	height:250px;	
+	width:1920px;
+	height:422px;	
 	top:0;
 	left:0;
 	opacity: 1;
 	position:relative;
+	margin: auto;
 	
 }
 /*com o seletor chamo, faço referencia através do id a minha tag de imagem*/
 #photo {
     width: 1920px;
-    height: 250px;
+	height: 422px;
+	margin: auto;
 }
 
 #spaceText{
@@ -21,9 +24,9 @@
 
 /*classe do texto, posicionando o texto sobre a tela*/
 .textDiv{	
-	top:130px;
-	left:100px;
-	width:631px;
+	top:200px;
+	left:146px;
+	width:1031px;
 	height:98px;
 	
 	text-align: left;
@@ -31,6 +34,7 @@
 	letter-spacing: 0px;
 	color: #FFFFFF;
 	font: Bold 30px/35px Rubik;
+	font-size: 60px;
 	opacity: 1;
 	position: absolute;
 }
@@ -48,6 +52,8 @@
 	width: 1920px;
 	margin: 80px auto 80px auto;
 	padding: 0px 0px 0px 0px;
+	
+	
 }
 /*definição do tamanho da div da descrição*/
 #descricao{
