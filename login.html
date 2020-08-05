@@ -1,39 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tela de login</title>
-</head>
-<body>
- <header>
-<!--criando menu reader-->
-	<div class="logo">
-		<h2>hashtag<span>finder</span></h2>
-	</div>
-	<div class="menu">
-		<nav>
-			<a href=""><input type="button" value="Home"></a>
-		</nav>
-	</div>
-</header>
-<!---->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/login.css" />
 
-<!--criando formulario-->
-    <div class="login">
+    <title>Tela de login</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <h2>hashtag<span>finder</span></h2>
+        </div>
+        <div class="menu">
+          <a>
+            <button class="home" alt="Home Icon">
+              Home
+              <img src="./styles/assets/icon-home.svg" alt="Home Icon" />
+            </button>
+          </a>
+        </div>
+      </nav>
+    </header>
+    <div class="section-content">
+      <div class="login">
         <h3>Login</h3>
-        <form>
-            <label for="">Usuário</label>
-            <br>
-            <input type="text" placeholder="Usúario">
-            <br>
-            <label for="">Senha</label>
-            <br>
-            <input type="password" placeholder="Senha">
-            <br>
-            <input type="submit" value="Acessar">
-        </form>
+        <!-- <form> -->
+        <label for=""></label>
+        <br />
+        <input type="text" placeholder="Usúario" />
+        <br />
+        <label for=""></label>
+        <br />
+        <input type="password" placeholder="Senha" />
+        <br />
+        <button class="acessar">Acessar</button>
+        <!-- </form> -->
+      </div>
     </div>
-<!---->
-</body>
+  </body>
 </html>
