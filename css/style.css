@@ -1,3 +1,7 @@
+body{
+	margin: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 /*inicio da parte do Rodrigo*/
 
 /*classe da imagem*/
@@ -52,8 +56,6 @@
 	width: 1920px;
 	margin: 80px auto 80px auto;
 	padding: 0px 0px 0px 0px;
-	
-	
 }
 /*definição do tamanho da div da descrição*/
 #descricao{
@@ -68,7 +70,7 @@
 }
 
 #descricao>p{
-	font-family: regular 35px rubik;
+	font-family: 'Rubik';
 	font-size: 30px;
 	line-height: 40px;
 	text-align: justify;
@@ -131,13 +133,15 @@
 }
 
 .integrantesDaEquipe>h2{
-	font: 35px Rubik;
+	font-family: 'Rubik';
+	font-size: 30px;
 	margin: 10px 0px 20px 0px;
 }
 
 .integrantesDaEquipe>p{
-	font-family: regular 35px rubik;
+	font-family: 'Rubik';
 	font-size: 25px;
+	line-height: 25px;
 	text-align: center;
 	width: 350px;
 	margin: 0px 0px 20px 0px;
