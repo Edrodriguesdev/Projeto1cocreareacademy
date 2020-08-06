@@ -25,8 +25,9 @@ nav {
 
 .home {
   display: flex;
+  align-items: center;
   padding: 5px;
-  width: 90px;
+  width: 100px;
   border-radius: 50px;
   color: white;
   background-color: #d842bd;
@@ -44,6 +45,7 @@ nav {
 .menu img {
   width: 10px;
   height: 10px;
+  padding: 6%;
 }
 
 .login {
@@ -87,12 +89,14 @@ input[type="text" i] {
   margin-bottom: 20px;
   border: none;
   width: 80%;
+  outline: none;
 }
 
 input[type="password" i] {
   border-radius: 8%;
   border: none;
   width: 80%;
+  outline: none;
 }
 
 .section-content {
@@ -112,5 +116,9 @@ input[type="password" i] {
 
   .acessar {
     padding: 5px;
+  }
+
+  .login {
+    width: 80%;
   }
 }
