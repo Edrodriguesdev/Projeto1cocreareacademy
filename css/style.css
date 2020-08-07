@@ -3,6 +3,7 @@ body{
 	display: flex
 	flex-direction: column;
 	justify-content: center;
+	height: 2000px;
 
 	
 }
@@ -11,7 +12,8 @@ body{
 
 /*classe da imagem*/
 .divLeft{
-	height:422px;
+	height:32vh;
+	min-height: 220px;
 	background-image: url(../imagensSobre/about-bg.jpg);
 	background-size: cover;	
 	width: 100%;
@@ -30,14 +32,11 @@ body{
 	margin: auto;
 }
 
-#spaceText{
-	padding-right: 16px;
-}
+
 
 /*classe do texto, posicionando o texto sobre a tela*/
 .textDiv{	
-	top:200px;
-	margin-left: 140px;
+	top: 45%;
 	width:100%;
 	height:98px;
 	
@@ -46,9 +45,13 @@ body{
 	letter-spacing: 0px;
 	color: #FFFFFF;
 	font: Bold 30px/35px Rubik;
-	font-size: 60px;
+	font-size: 3vw;
 	opacity: 1;
-	position: relative;
+	position: absolute;
+}
+
+#spacetext{
+	margin-left: 7%;
 }
 
 /*fim da parte do Rodrigo*/
@@ -60,45 +63,43 @@ body{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	width: 80%;
+	width: 100%;
 	margin: 80px auto 80px auto;
 	padding: 0px 0px 0px 0px;
 }
 /*definição do tamanho da div da descrição*/
 #descricao{
 	width: 40%;
-	
-	
-	
+	margin-left: 7%;
+		
 }
 /* caracteristicas do texto do titulo e paragráfo */
 #descricao>h2{
 	font: Bold 35px/35px Rubik;
-	font-size: 50px;
+	font-size: 3vw;
 	color: #3634f7;
-	margin-left: 146px;
+	margin-left: 0vw;
 }
 
 #descricao>p{
 	font-family: 'Rubik';
-	font-size: 1.1vw;
+	font-size: 1.6vw;
 	line-height: 2vw;
 	text-align: justify;
 	width: 100%;
 	margin:0 auto;
-	margin-left: 146px;
 
 }
 
 /* ajuste da posição da imagem em relação ao topo pai*/
 #imagemSobre{
-	width: 50%; 
+	width: 40%; 
 	height: auto;
 	margin:0 auto;
 	display: flex;
 	align-items: center;
-	padding-top: 100px;
-	margin-left: 200px;
+	margin-top: 3%;
+	margin-left: 5%;
 }
 #imagemSobre>img{
 	width: 100%; 
@@ -116,63 +117,78 @@ body{
 	width: 100%;
 	margin: 0px auto 0px auto;
 	justify-content: space-around;
+	
 }
 
 #quem{
-	width: 80%;
+	width: 100%;
 	height: 25px;
 	font: Bold 35px/35px Rubik;
 	font-size: 35px;
 	color: #3634f7;
 	margin: 0px auto 35px auto;
+	
 }
 
 #quem>h2{
-	margin-left: 135px;
+	font: Bold 35px/35px Rubik;
+	font-size: 3vw;
+	margin-left: 7%;
 	
 }
 
 .integrantesDaEquipe{
-	width: 15%;
-	min-width: 300px;
-	max-width: 400px;
-	height: 425px;
+	width:20%;
+	min-width: 180px;
+	max-width: 600px;
+	height: 40%;
+	max-height: 740px;
 	box-shadow: 0px 15px 25px #5538EE14 ;
-	border-radius: 20px;
+	border-radius: 10px;
 	border: 1px #5638ee1c;
 	border-style: solid;
-	margin: 20px;
+	margin: 0px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;	
 }
 
 #integrante1{
-
+	margin-left: 5%;
+}
+#integrante4{
+	margin-right: 5%;
 }
 
 .icone{
-	margin: 0px 15px 0px 15px;
+	margin: 0vh 1vw 2vh 1vw;
+	size: 1vh;
 }
 
 .perfil{
 	border-radius: 50%;
-	margin-top: 40px;
+	margin-top: 3vh;
 }
 
 .integrantesDaEquipe>h2{
 	font-family: 'Rubik';
-	font-size: 1.5em;
+	font-size: 2vw;
 	margin: 10px 0px 20px 0px;
 }
 
 .integrantesDaEquipe>p{
 	font-family: 'Rubik';
-	font-size: 1.1em;
-	line-height: 25px;
+	font-size: 1.5vw;
+	line-height: 1em;
 	text-align: center;
 	width: 90%;
-	margin: 0px 0px 20px 0px;
+	margin: 0vw 0px 1vw 0px;
+}
+
+@media screen and (min-width: 1900px){
+	.textDiv{	
+		top: 30%;
+	}
 }
 
 @media screen and (max-width: 800px){
