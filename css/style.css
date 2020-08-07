@@ -1,5 +1,10 @@
 body{
 	margin: 0;
+	display: flex
+	flex-direction: column;
+	justify-content: center;
+
+	
 }
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 /*inicio da parte do Rodrigo*/
@@ -9,6 +14,7 @@ body{
 	height:422px;
 	background-image: url(../imagensSobre/about-bg.jpg);
 	background-size: cover;	
+	width: 100%;
 	top:0;
 	left:0;
 	opacity: 1;
@@ -19,7 +25,7 @@ body{
 }
 /*com o seletor chamo, faço referencia através do id a minha tag de imagem*/
 #photo {
-    width: 1920px;
+    width: 100%;
 	height: 422px;
 	margin: auto;
 }
@@ -31,8 +37,8 @@ body{
 /*classe do texto, posicionando o texto sobre a tela*/
 .textDiv{	
 	top:200px;
-	left:146px;
-	width:1920px;
+	margin-left: 140px;
+	width:100%;
 	height:98px;
 	
 	text-align: left;
@@ -53,37 +59,52 @@ body{
 #sobre{
 	display: flex;
 	flex-direction: row;
-	flex-wrap: wrap;
 	justify-content: space-between;
-	width: 1920px;
+	width: 80%;
 	margin: 80px auto 80px auto;
 	padding: 0px 0px 0px 0px;
 }
 /*definição do tamanho da div da descrição*/
 #descricao{
-	width: 800px;
-	margin-left: 140px;
+	width: 40%;
+	
+	
+	
 }
 /* caracteristicas do texto do titulo e paragráfo */
 #descricao>h2{
 	font: Bold 35px/35px Rubik;
 	font-size: 50px;
 	color: #3634f7;
+	margin-left: 146px;
 }
 
 #descricao>p{
 	font-family: 'Rubik';
-	font-size: 30px;
-	line-height: 40px;
+	font-size: 1.1vw;
+	line-height: 2vw;
 	text-align: justify;
+	width: 100%;
+	margin:0 auto;
+	margin-left: 146px;
+
 }
 
 /* ajuste da posição da imagem em relação ao topo pai*/
 #imagemSobre{
-	margin-top: 50px;
-	margin-right: 200px;
-	width: 587px; 
+	width: 50%; 
 	height: auto;
+	margin:0 auto;
+	display: flex;
+	align-items: center;
+	padding-top: 100px;
+	margin-left: 200px;
+}
+#imagemSobre>img{
+	width: 100%; 
+	height: auto;
+	max-width: 900px;
+	margin:auto;
 }
 
 /**/
@@ -92,12 +113,13 @@ body{
 	display: flex;
 	flex-direction:row;
 	flex-wrap: wrap;
-	width: 1920px;
+	width: 100%;
 	margin: 0px auto 0px auto;
+	justify-content: space-around;
 }
 
 #quem{
-	width: 1920px;
+	width: 80%;
 	height: 25px;
 	font: Bold 35px/35px Rubik;
 	font-size: 35px;
@@ -111,20 +133,22 @@ body{
 }
 
 .integrantesDaEquipe{
-	width: 398px;
-	height: 525px;
+	width: 15%;
+	min-width: 300px;
+	max-width: 400px;
+	height: 425px;
 	box-shadow: 0px 15px 25px #5538EE14 ;
 	border-radius: 20px;
 	border: 1px #5638ee1c;
 	border-style: solid;
-	margin: 25px;
+	margin: 20px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;	
 }
 
 #integrante1{
-	margin-left: 110px;
+
 }
 
 .icone{
@@ -138,25 +162,33 @@ body{
 
 .integrantesDaEquipe>h2{
 	font-family: 'Rubik';
-	font-size: 30px;
+	font-size: 1.5em;
 	margin: 10px 0px 20px 0px;
 }
 
 .integrantesDaEquipe>p{
 	font-family: 'Rubik';
-	font-size: 25px;
+	font-size: 1.1em;
 	line-height: 25px;
 	text-align: center;
-	width: 350px;
+	width: 90%;
 	margin: 0px 0px 20px 0px;
 }
+
+@media screen and (max-width: 800px){
+	/*ajuste para tablets*/
+
+
+
+}
+
 
 @media screen and (max-width: 600px){
 body{
 	overflow-x: hidden;
 }
 #divleft{
-	width: 330px;
+	width: 100%;
 	height: 200px;
 	left: 0px;
 	background-image: url(../imagensSobre/about-bg.jpg);
@@ -165,19 +197,20 @@ body{
 .textDiv{
 	left: 0vw;
 	font-size: 30px;
-	width: 340px;
+	width: 90%;
 }
 #textDiv>h2{
-	width: 340px;
+	width: 90%;
 
 }
 #sobre{
 	flex-direction: column;
-	width: 340px;
+	width: 90%;
+	justify-content: center;
 
 }
 #descricao{
-	width: 340px;
+	width: 100%;
 	margin-left: 0vw;
 	
 }
@@ -201,14 +234,14 @@ body{
 
 #imagemSobre{
 	margin-top: 50px;
-	width: 330px; 
+	width: 90%; 
 	height: auto;
 	
 }
 #imagemSobre>img{
-	margin-top: 20px;
-	margin-left: 3vw;
-	width: 330px; 
+	margin-top: 10px;
+	margin-left: 0vw;
+	width: 90%; 
 	height: auto;
 	
 }
