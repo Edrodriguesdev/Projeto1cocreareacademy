@@ -4,9 +4,6 @@
     box-sizing: border-box;
     padding: 0;
 }
-body{
-    height: 1500px;
-}
 header{
     position: fixed;
     font-family: 'Rubik';
@@ -166,6 +163,9 @@ h4{
 }
 footer{
     height: 90px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     background: #D842BD 0% 0% no-repeat padding-box;
     display: flex;   
     align-items: center;
@@ -510,4 +510,4 @@ footer{
         font-size: 1.1em;
         font-weight: normal;
     }
-    }
+}
