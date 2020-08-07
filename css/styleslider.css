@@ -219,8 +219,9 @@ font-weight: bold;
 	position: relative;
 	top: 35px;
 	left: 20px;
-	max-width: 82px;
-	max-height: 82px;
+	max-width: 80px;
+	max-height: 80px;
+	border-radius: 40px;
 }
 
 .tweet h1{
@@ -255,9 +256,17 @@ font-weight: bold;
 }
 
 @media screen and (max-width:1280px){
+	.navegacao{
+		width: 75%;
+	}
+
 	.menu{
 		float: right;
 }
+
+	.chamada{
+		padding-top: 40px;
+	}
 
 	.flexImg{
 	margin: 0 auto;
@@ -281,9 +290,8 @@ font-weight: bold;
 	}
 
 	.tweet{
-	max-width: 600px;
-	max-height: 200px;
-
+	max-width: 500px;
+	max-height: 180px;
 	}
 
 	.tweet p{
