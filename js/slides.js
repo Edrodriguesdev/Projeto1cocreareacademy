@@ -19,6 +19,20 @@ $(function(){
 				}
 
 				},
+
+				{
+					breakpoint: 1025,
+					settings: {
+					arrows: false,
+					dots:true,
+					infinite: false,
+					speed: 300,
+					slidesToShow: 4,
+					slidesToScroll:4,
+				}
+
+				},
+
 				{
 					breakpoint: 768,
 					settings: {

@@ -71,6 +71,53 @@
 }
 
 
+/**Estilizando header**/
+
+header{	
+	margin: 0 auto;
+	height: 70px;
+	top: 0;
+	position: fixed;
+	z-index: 1;
+	width: 1600px;
+	background-size:cover;
+	background-image: url('../imagens/bg_header.jpg');
+}
+
+.navegacao{
+	margin-left: 10px;
+	width: 60%;
+	height: 50px;
+	justify-content:space-between;
+	display: flex;
+	align-items: center;
+	
+}
+
+.navegacao.logo {
+	width: 50%;
+	padding-left: 0;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.logo h2{
+	color: white;
+	padding-left: 10px;
+	text-align: left;
+}
+
+.navegacao.menu{
+	padding-right:0;
+	width: 50%;
+	vertical-align: middle;
+}
+
+.menu nav a{
+	text-align: right;
+}
+
+
 /**estilizando titulo do resultado de busca**/
 .chamada{
 	max-width: 1280px;
@@ -178,18 +225,25 @@ font-weight: bold;
 	display: block;
 	padding:0 82px 0 135px;
 	width:100%;
-	max-height: 92px;
+	max-height: 120px;
 }
 
 .tweet button{
-	font-size: 20px;
-	padding:30px 30px 30px 135px;
+	display: inline-block;
+	width: 160px;
+	height: 20px;
+	font-size: 17px;
+	margin:10px 10px 10px 135px;
 	color: #3634F7;
 	background-color: white;
 	border:none;
 }
 
 @media screen and (max-width:1280px){
+	.menu{
+		float: right;
+}
+
 	.flexImg{
 	margin: 0 auto;
 	max-width: 1100px;
@@ -206,12 +260,46 @@ font-weight: bold;
 	font-size: 13px;
 }
 
-.texto .usuarioPost{
-	font-weight: normal;
-	font-size: 16px;
+	.texto .usuarioPost{
+		font-weight: normal;
+		font-size: 16px;
+	}
+
+	.tweet{
+	max-width: 600px;
+	max-height: 200px;
+
+	}
+
+	.tweet p{
+		display: block;
+		padding:0 0 0 135px;
+		width:100%;
+		max-height: 92px;
+	}
+
+	.tweet button{
+		width: 140px;
+		font-size: 15px;
+		padding-top:0;
+		margin:10px 0 10px 135px;
+		text-align: left;
+	}
+
 }
 
+@media screen and (max-width:1024px){
+	.flexImg{
+		margin: 0 auto;
+		max-width: 800px;
+		display: flex;
+	}
 
+	.imgSingle{
+		max-width:200px;
+		max-height:200px;
+	
+	}
 }
 
 
