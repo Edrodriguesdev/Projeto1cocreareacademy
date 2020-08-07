@@ -1,75 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap");
+
 html,
 body {
-  font-family: "Roboto", sans-serif;
-  background-color: #ccaed3;
+  font-family: "Rubik", sans-serif;
+  background-image: url(./assets/login-bg.jpg);
 }
 
 .logo {
   color: white;
   text-align: left;
-  margin-left: 20px;
-  margin-top: 20px;
-  font-size: 2em;
+
+  font-size: 1.2em;
+}
+.logo span {
+  font-weight: bold;
 }
 
 nav {
-  position: absolute;
-  top: 0;
-  margin-top: 20px;
-  margin-left: 78em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
 }
-input[type="button" i] {
-  padding: 6px 20px 6px 20px;
-  border-radius: 10%;
+
+.home {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  width: 100px;
+  border-radius: 50px;
   color: white;
   background-color: #d842bd;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.home:hover {
+  transform: scale(1.1);
+}
+
+.menu img {
+  width: 10px;
+  height: 10px;
+  padding: 6%;
 }
 
 .login {
-  position: absolute;
   display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
   text-align: left;
   align-content: center;
-  margin-left: 27em;
-  margin-top: 2em;
   background-color: white;
-  height: 24em;
-  width: 30em;
+  width: 60%;
+  height: 60vh;
   border-radius: 3%;
 }
+
 h3 {
-  position: absolute;
-  top: 0;
-  margin-top: 3em;
-  margin-left: 8.5em;
+  margin-bottom: 5%;
   font-size: 1.5em;
   color: blue;
-}
-form,
-label input {
-  display: inline-block;
-  margin-left: 5em;
+  font-weight: bold;
 }
 
-input[type="submit" i] {
-  position: absolute;
-  margin-left: 9em;
-  top: 0;
-  margin-top: 20em;
-  padding: 6px 20px 6px 20px;
-  border-radius: 10%;
+.acessar {
+  margin-top: 5%;
+  padding: 3%;
+  width: 35%;
+  border-radius: 100px;
   color: white;
   background-color: #3633f7;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+  font-weight: bold;
 }
-
+.acessar:hover {
+  transform: scale(1.1);
+}
 input[type="text" i] {
-  width: 20em;
   border-radius: 8%;
   margin-bottom: 20px;
+  border: none;
+  width: 80%;
+  outline: none;
 }
 
 input[type="password" i] {
-  width: 20em;
   border-radius: 8%;
+  border: none;
+  width: 80%;
+  outline: none;
+}
+
+.section-content {
+  margin-top: 5%;
+  width: 50%;
+  margin-left: 25%;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 600px) {
+  .section-content {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 20%;
+  }
+
+  .acessar {
+    padding: 5px;
+  }
+
+  .login {
+    width: 80%;
+  }
 }
