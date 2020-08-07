@@ -47,7 +47,7 @@
 	background-image: url('../imagens/mov_esquerda.svg');
 	background-repeat: no-repeat;
 	background-position: center;
-	color: white;
+	color: rgba(255, 255, 255, 0.1);
 	border: none;
   	background-color: white;
   	width:120px;
@@ -62,7 +62,7 @@
 	background-position: center;
   	background-color: white;
 	border: none;
-	color: white;
+	color: rgba(255, 255, 255, 0.1);
   	width:120px;
 	height:64px;
 	margin-top: 7%;
@@ -102,9 +102,14 @@ header{
 }
 
 .logo h2{
+	font-weight: normal;
 	color: white;
 	padding-left: 10px;
 	text-align: left;
+}
+
+.logo span{
+	font-weight: bold;
 }
 
 .navegacao.menu{
@@ -115,6 +120,16 @@ header{
 
 .menu nav a{
 	text-align: right;
+}
+
+nav input[type=button]{
+	width: 60px;
+	height: 20px;
+	color: white;
+	background-color: violet;
+	border: none;
+	border-radius: 4px;
+	text-align: center;
 }
 
 
