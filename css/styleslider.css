@@ -263,6 +263,18 @@ font-weight: bold;
 	border:none;
 }
 
+footer{
+	width: 100%;
+    height: 70px;
+    background: #D842BD 0% 0% no-repeat padding-box;
+    display: flex;
+	margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-family: 'Rubik';
+}
+
 @media screen and (max-width: 1280px) and (min-width: 1025px){
 	.chamada{
 		padding-top: 40px;
