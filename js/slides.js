@@ -19,6 +19,20 @@ $(function(){
 				}
 
 				},
+
+				{
+					breakpoint: 1025,
+					settings: {
+					arrows: false,
+					dots:true,
+					infinite: false,
+					speed: 300,
+					slidesToShow: 4,
+					slidesToScroll:4,
+				}
+
+				},
+
 				{
 					breakpoint: 768,
 					settings: {
@@ -30,7 +44,21 @@ $(function(){
 					slidesToScroll:3,
 				}
 
+				},
+
+				{
+					breakpoint: 580,
+					settings: {
+					arrows: false,
+					dots:true,
+					infinite: true,
+					speed: 300,
+					slidesToShow: 2,
+					slidesToScroll:2,
 				}
+
+				}
+
 			]
   	
 	});
