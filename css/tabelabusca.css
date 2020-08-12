@@ -7,8 +7,6 @@ body { background-image: url("/imagens/imagens\ hashtag\ finder/login-bg.jpg");
     font-family: 'Rubik', sans-serif;
 }
 
-
-
 /* FIM background */
 
 /*  Logo Hashtagfinder 
@@ -32,6 +30,7 @@ h2.logo {
     font-size: 23px;
 }
 
+
 .buscarealizada{
     width: 80%;
     height: 50px;
@@ -51,7 +50,6 @@ th, td {
 
 .tabelabusca{
     width: 80%;
-    height: 430px;
     margin-left: 10%;
     background-color: #FFF;
     line-height: 20px;
@@ -86,11 +84,6 @@ margin-top: 10px;
 .radius {
     border-bottom-radius: 10px;
 }
-
-
-
-
-
 
 /* FIM TABELA BUSCA*/
 
@@ -153,24 +146,44 @@ nav {
 
 /* MEDIA QUERY PARA MENOR QUE 600px */
 
-@media screen and (max-width: 400px) {
-    .flex-container {
-        flex-direction: column;
-    }
+@media screen and (max-width: 450px) {
 
     nav {
-        padding-left: 5px;
-        padding-right: 5px;
+        padding-left: 2%;
+        padding-right: 2%;
     }
 
-    .logo {
-        font-size: 13px;
+    .logonormal {
+        font-size: 16px;
+    }
 
+    .home {
+        width: 10%;
+        margin: auto;
     }
 
     #menu ul li a {
-        padding: 6px 16px;
-        display: inline;
+        padding: 2% 3%;
+        display: flex;
+    }
+
+    .buscarealizada {
+        margin-left: 10%;
+        font-size: 18px;
+    }
+
+    th {
+        padding: 0px 0px;
+    }
+
+    .espacotabela {
+        padding: 0px 0px;
+        margin: 0px 0px;
+    }
+
+    .tabelabusca div{
+        margin: 0px 0px 0px 0px;
+        width: 90%;
     }
 
     
