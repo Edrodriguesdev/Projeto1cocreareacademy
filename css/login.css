@@ -42,6 +42,10 @@ nav {
   transform: scale(1.1);
 }
 
+.menu a{
+	text-decoration: none;
+} 
+
 .menu img {
   width: 10px;
   height: 10px;
