@@ -45,7 +45,7 @@ header{
 }
 #botaosobre{
     background: #D842BD 0% 0% no-repeat padding-box;
-    background-image: url('../imagens hashtag finder/icon-info-circle.svg');
+    background-image: url('../assets/icon-info-circle.svg');
     background-position: 25px;
     color: #ffffff;
     font-family: 'Rubik';
@@ -59,7 +59,7 @@ header{
 }
 #botaologin{
     background: #3633F7 0% 0% no-repeat padding-box;
-    background-image: url('../imagens hashtag finder/icon-user-alt.svg');
+    background-image: url('../assets/icon-user-alt.svg');
     background-position: 25px;
     color: #ffffff;
     margin-left: 15px;
