@@ -19,11 +19,81 @@ body { background-image: url("/imagens/imagens\ hashtag\ finder/login-bg.jpg");
     font-size: 16px;
 }
 
+
 h1.logonormal {
     font-weight: normal;
 }
 
+
 /* FIM Loho Hashtagfinder */
+/* BUSCA REALIZADA */
+h2.logo {
+    color: #fff;
+    font-size: 23px;
+}
+
+.buscarealizada{
+    width: 80%;
+    height: 50px;
+    margin-left: 10%;
+
+}
+
+/* FIM BUSCA REALIZADA*/
+
+/* TABELA BUSCA*/
+
+th, td {
+    border-bottom: 1px solid #ddd;
+    padding-top: 10px;
+    padding-bottom: 1px;
+}
+
+.tabelabusca{
+    width: 80%;
+    height: 430px;
+    margin-left: 10%;
+    background-color: #FFF;
+    line-height: 20px;
+    border-radius: 10px;
+
+}
+
+.espacotabela {
+padding: 0px 0px 5px 0px;
+border-radius: 10px;
+margin-top: 10px;
+}
+
+.espacotabela td{
+  font-size: 16px;
+  width: 100%;
+  height: 100%;
+  background-color: #FFF;
+  color: blueviolet;
+  line-height: 40px;
+  padding: 5px 40px;
+  
+}
+
+.espacotabela th {
+    color: #3633F7;
+    background-color: rgba(233, 233, 233, 0.938);
+    padding: 15px 35px;
+    line-height: 30px;  
+}
+
+.radius {
+    border-bottom-radius: 10px;
+}
+
+
+
+
+
+
+/* FIM TABELA BUSCA*/
+
 
 #menu ul {
     padding:0px;
