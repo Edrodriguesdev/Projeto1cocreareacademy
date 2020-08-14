@@ -97,14 +97,14 @@ header{
     height: 80px;
     position: absolute;
 }
-h1{
+#ttit{
     color: #FFFFFF;
     font-family: 'Rubik';
     font-size: 3em;
     font-weight: bold;
     position: relative;
 }
-h4{
+#tdesc{
     color: #FFFFFF;
     font-family: 'Rubik';
     font-size: 1em;
