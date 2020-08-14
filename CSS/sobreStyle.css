@@ -290,7 +290,7 @@ header{
 
 @media screen and (min-width: 1900px){
 	.textDiv{	
-		top: 30%;
+		top: 60%;
 	}
 }
 
@@ -385,7 +385,7 @@ body{
 #imagemSobre>img{
 	margin-top: 10px;
 	margin-left: 0vw;
-	width: 90%; 
+	width: 100%; 
 	height: auto;
 	
 }
@@ -393,6 +393,7 @@ body{
 #equipe{
 	flex-direction: column;
 	width: 340px;
+	justify-content: center;
 }
 #quem{
 	width: 340px;
@@ -407,12 +408,14 @@ body{
 
 #quem>h2{
 	margin-left: 3vw;
+	font-size: 2em;
 	
 }
 .integrantesDaEquipe{
-	width: 320px;
+	width: 310px;
 	height: 450px;
-	margin-left: 3vw;
+	margin-left: 0vw;
+	margin-top: 2em;
 }
 .integrantesDaEquipe>h2{
 	font-size: 25px;
@@ -427,7 +430,7 @@ body{
 }
 
 #integrante1{
-	margin-left: 3vw;
+	margin-left: 0vw;
 }
 
 
