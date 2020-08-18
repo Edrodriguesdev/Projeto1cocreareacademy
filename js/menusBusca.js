@@ -1,5 +1,5 @@
-
-var myScrollFunc = function() {
+/* Função de scroll do header transparente*/
+var substMenu = function() {
     var y = window.scrollY;
     if (y >= 300) {
         if (document.querySelector('.menuSup')) {
@@ -14,4 +14,5 @@ var myScrollFunc = function() {
     }
 };
 
-window.addEventListener("scroll", myScrollFunc);
+window.addEventListener("scroll", substMenu);
+/* Fim da função de scroll do header transparente*/
