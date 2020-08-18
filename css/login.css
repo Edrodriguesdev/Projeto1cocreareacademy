@@ -3,7 +3,7 @@
 html,
 body {
   font-family: "Rubik", sans-serif;
-  background-image: url(./assets/login-bg.jpg);
+  background-image: url(/assets/login-bg.jpg);
 }
 
 .logo {
