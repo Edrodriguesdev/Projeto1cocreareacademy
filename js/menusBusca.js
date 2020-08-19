@@ -16,12 +16,8 @@ var substMenu = function() {
 
 function validaForm(frm) {
 
-    if (frm.hashTag.value == “”” || frm.hashTag.value == null || frm.hashTag.value.lenght < 3) {
-        //É mostrado um alerta, caso o campo esteja vazio.
-        alert(“Por favor, indique o seu nome.“);
-       //Foi definido um focus no campo.
-        frm.nome.focus();
-       //o form não é enviado.
+    if ((frm.charCounter.value == “””) (frm.charCounter.value == null) (frm.charCounter.value.lenght < 3) (frm.form-control.value.lenght > 140)) {
+        alert(“Por favor, indique uma hashtag valida.“);
         return false;
     }
     
