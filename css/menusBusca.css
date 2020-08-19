@@ -303,10 +303,9 @@ body{
         font-size: 0.7em;
         font-weight: normal;
     }
-    #linktitulo{
+    .linktitulo{
         margin-top: 20px;
         width: 10%;
-        padding-left: 15px;
         font-size: 0.8em;
     }
     #botaosobre{
@@ -523,7 +522,7 @@ body{
         font-size: 1.0em;
         font-weight: normal;
     }
-    #linktitulo{
+    .linktitulo{
         margin-top: 30px;
         width: 10%;
         padding-left: 15px;
