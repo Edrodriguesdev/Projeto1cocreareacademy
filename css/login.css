@@ -69,9 +69,8 @@ h3 {
 }
 
 .acessar {
-  margin-top: 5%;
-  padding: 3%;
-  width: 35%;
+  height: 30px;
+  width: 130px;
   border-radius: 100px;
   color: white;
   background-color: #3633f7;
@@ -80,6 +79,15 @@ h3 {
   cursor: pointer;
   margin-bottom: 20px;
   font-weight: bold;
+  outline: none;
+}
+
+.link{
+  margin-top: 5%;
+  padding: 3%;
+  width: 35%;
+  height: 50px;
+  outline: none;
 }
 .acessar:hover {
   transform: scale(1.1);

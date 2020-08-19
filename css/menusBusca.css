@@ -4,9 +4,7 @@
     box-sizing: border-box;
     padding: 0;
 }
-body{
-    height: 10000px;
-}
+
 /* header normal */
 #menuSup{
     position: absolute;
