@@ -13,14 +13,29 @@ var substMenu = function() {
         }
     }
 };
-
-function validaForm(frm) {
-
-    if ((frm.charCounter.value == “””) (frm.charCounter.value == null) (frm.charCounter.value.lenght < 3) (frm.form-control.value.lenght > 140)) {
-        alert(“Por favor, indique uma hashtag valida.“);
-        return false;
-    }
-    
-  
 window.addEventListener("scroll", substMenu);
-/* Fim da função de scroll do header transparente*/
+
+/* Fim da função do scroll do header transparente*/
+
+/* Início validação do campo de busca */
+function validarForm(Form) {
+
+    if (
+       document.getElementsByName ('hashTag').value == "" || 
+       document.getElementsByName ('hashTag').value ==  null ||
+       document.getElementsByName ('hashTag').values < 3 ||
+       document.getElementsByName ('hashTag').values > 140) 
+
+       {
+        console.log('Form Invalido')
+        return false;
+        alert("Por favor, indique uma hashtag válida.");
+       }
+       {
+           
+        console.log('Form valido')
+        return true;
+}
+}
+
+/* Fim validação do campo de busca */
