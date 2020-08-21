@@ -26,6 +26,10 @@ function validar(){
         formuser.campo.focus();
         return false;
     }
+
+    if(campo == "#"){
+       return formuser.hashTag.value("");
+    }
     
     if(tamanho <= 3){
         alert('Digite mais !');
@@ -39,11 +43,7 @@ function validar(){
         return false;
     }
 
-    if(campo == "#"){
-        
-    }
-
-    
+  
 
 }
 /* Fim validação do campo de busca */
