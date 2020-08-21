@@ -17,19 +17,33 @@ window.addEventListener("scroll", substMenu);
 /* Fim da função do scroll do header transparente*/
 
 /* Início validação do campo de busca */
-    function validarForm() {
-        if (
-            document.getElementsByName ("hashTag").value ==  null ||
-            document.getElementsByName ("hashTag").value.lenght <= 3 ||
-            document.getElementsByName ("hashTag").value.lenght >= 141 )
-            {
-                alert("Por favor, indique uma hashtag válida.");
-                console.log('Form Invalido');
-                return false;
-            }
-            else{
-                console.log('Form valido');
-                return;
-            }
-        }
+function validar(){
+    var campo = formuser.hashTag.value;
+    var tamanho = formuser.hashTag.value.length;
+                    
+    if(campo == ""){
+        alert('Preencha o campo nome.');
+        formuser.campo.focus();
+        return false;
+    }
+    
+    if(tamanho <= 3){
+        alert('Digite mais !');
+        formuser.hashTag.focus();
+        return false;
+    }
+
+    if(tamanho >= 141){
+        alert('tudo isso?');
+        formuser.hashTag.focus();
+        return false;
+    }
+
+    if(campo == "#"){
+        
+    }
+
+    
+
+}
 /* Fim validação do campo de busca */
