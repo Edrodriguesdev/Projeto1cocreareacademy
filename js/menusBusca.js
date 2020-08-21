@@ -14,34 +14,22 @@ var substMenu = function() {
     }
 };
 window.addEventListener("scroll", substMenu);
-
 /* Fim da função do scroll do header transparente*/
 
 /* Início validação do campo de busca */
-
     function validarForm() {
-        
         if (
-            document.getElementsByName ('hashTag').value == "" || 
-            document.getElementsByName ('hashTag').value ==  null ||
-            document.getElementsByName ('hashTag').value.lenght <= 3 ||
-            document.getElementsByName ('hashTag').value.lenght >= 141 )
-            
-    
+            document.getElementsByName ("hashTag").value ==  null ||
+            document.getElementsByName ("hashTag").value.lenght <= 3 ||
+            document.getElementsByName ("hashTag").value.lenght >= 141 )
             {
-                
                 alert("Por favor, indique uma hashtag válida.");
                 console.log('Form Invalido');
                 return false;
             }
-
-            else {
-
+            else{
                 console.log('Form valido');
-                return true;
-             
+                return;
             }
-
-            }
-    
-    /* Fim validação do campo de busca */
+        }
+/* Fim validação do campo de busca */
