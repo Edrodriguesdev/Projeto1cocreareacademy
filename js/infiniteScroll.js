@@ -1,9 +1,14 @@
 
-var tweet = document.getElementById("tweet");
-
-var divTweets = document.querySelector('.tweetUsuarios');
-
+/*array com objetos para utilização na função maisDez*/
 let posts  = [
+  {
+    userImg:"https://pbs.twimg.com/profile_images/1295966615520059392/HLN6ikfJ_400x400.jpg",
+    userName:"Leandro",
+    twitterUserName:"@Leandro",
+    post:"Lorem Ipsum is simply dummy text of the printing and typesett ingindustry..",
+    link: "https://twitter.com/",
+  },
+
   {
     userImg:"https://pbs.twimg.com/profile_images/1297591869417959430/ut5F1IUQ_400x400.jpg",
     userName:"Miguel",
@@ -588,42 +593,44 @@ let posts  = [
     link: "https://twitter.com/",
   },
 
-  {
-    userImg:"https://pbs.twimg.com/profile_images/1295966615520059392/HLN6ikfJ_400x400.jpg",
-    userName:"Leandro",
-    twitterUserName:"@Leandro",
-    post:"Lorem Ipsum is simply dummy text of the printing and typesett ingindustry..",
-    link: "https://twitter.com/",
-  }
 ]
-
+/*variavel utilizada para incluir um novo post como filho na função maisDez*/
+var divTweets = document.querySelector('.tweetUsuarios');
+/*Variavel utilizada na função maisDez pra buscar cada um dos objetos*/
 var next = 0;
-
+/*função para carregar mais Dez*/
 function maisDez(){
+    /*for para criar dez repetições a cada vez que a função for chamada*/
     for (var i = 0; i < 10; i++) {
+      /*variaveis para criar elemetos no HTML*/
       var novoPost = document.createElement('div');
       var novaImg = document.createElement('img');
       var novoH1 = document.createElement('h1');
       var novoH3 = document.createElement('h3');
       var novoP = document.createElement('p');
       var novoBtn = document.createElement('button');
+      /*buscando no objeto o item respectivo de cada elemento cliado no HTML*/
       novaImg.src = posts[next].userImg;
       novoH1.innerHTML = posts[next].userName;
       novoH3.innerHTML = posts[next].twitterUserName;
       novoP.innerHTML = posts[next].post;
       novoBtn.innerHTML = posts[next].link;
+      /*colocando a classe tweet na div para receber a formatação correta de CSS */
       novoPost.setAttribute('class', 'tweet');
+      /*colocando os elementos criados anteriormente dentro da div*/
       novoPost.appendChild(novaImg);
       novoPost.appendChild(novoH1);
       novoPost.appendChild(novoH3);
       novoPost.appendChild(novoP);
       novoPost.appendChild(novoBtn);
+      /*colocando a div criada dentro da div pai no html*/
       divTweets.appendChild(novoPost);
+      /*somando mais 1 na variavel next para prossegir para o proximo objeto*/
       next++;
     }
 }
 
-
+/*função para monitorar a rollagem da pagina e chamr a função de carregar mais dez*/
 window.addEventListener("scroll", () => {
     const { scrollTop, scrollHeight, clientHeight } = document.documentElement;
   
@@ -631,5 +638,5 @@ window.addEventListener("scroll", () => {
       maisDez();
     }
   });
-
+/*chamada inicial para carregar os Dez primeiros*/
   maisDez();
