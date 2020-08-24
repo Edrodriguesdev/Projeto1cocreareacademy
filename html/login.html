@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/resetlogin.css" />
+    <link rel="stylesheet" href="/css/login.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="index.js"></script>
+
+    <title>Tela de login</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <h2>hashtag<span>finder</span></h2>
+        </div>
+        <div class="menu">
+          <a href="/html/menusBusca.html">
+            <button class="home" alt="Home Icon">
+              <img src="/assets/icon-home.svg" alt="Home Icon" />
+
+              Home
+            </button>
+          </a>
+        </div>
+      </nav>
+    </header>
+    <form
+      id="form"
+      name="myForm"
+      action="./tabelabusca.html"
+      onsubmit="return validateForm()"
+    >
+      <div class="section-content">
+        <div class="login">
+          <h3>Login</h3>
+          <label for=""></label>
+          <br />
+          <input
+            name="academy@cocreare.com.br"
+            id="usuario"
+            type="email"
+            placeholder="Usúario"
+            required
+          />
+          <br />
+          <label for=""></label>
+          <br />
+          <input
+            name="123456"
+            id="senha"
+            type="password"
+            placeholder="Senha"
+            required
+          />
+          <br />
+          <a href="/html/tabelabusca.html" class="link"><button
+            type="submit"
+            class="acessar"
+            onclick="validateForm()"
+          >
+            Acessar
+          </button>
+          </a>  
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
