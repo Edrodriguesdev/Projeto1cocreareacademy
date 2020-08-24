@@ -16,9 +16,8 @@ var obj_ajax = [
 
 function addnovoitem(){
     for(let k = 0; k < obj_ajax.length; k++){
-        let contador = 0
         let tr = document.createElement("tr");
-        let conteudo = "<td style='color: black;'>"+obj_ajax[k].tag+"</td><td>"+obj_ajax[k].data+"</td><td>"+obj_ajax[k].hora+"</td>";
+        let conteudo = "<td style='color:black;'>"+obj_ajax[k].tag+"</td><td>"+obj_ajax[k].data+"</td><td>"+obj_ajax[k].hora+"</td>";
         tr.innerHTML = conteudo;
         document.querySelector("#paginacao").append(tr)
 
