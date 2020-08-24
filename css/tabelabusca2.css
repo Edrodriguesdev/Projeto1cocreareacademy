@@ -17,6 +17,7 @@ body { background-image: url("../assets/login-bg.jpg");
     font-size: 16px;
 }
 
+
 h1.logonormal {
     font-weight: normal;
 }
@@ -31,60 +32,49 @@ h2.logo {
 
 
 .buscarealizada{
-    width: 90%;
+    width: 80%;
     height: 50px;
-    margin-left: 8%;
+    margin-left: 10%;
 
 }
 
 /* FIM BUSCA REALIZADA*/
 
 /* TABELA BUSCA*/
-
-th, td {
-    padding: 5px 0px 1px 0px;
-    border-bottom: 1px solid #ddd;
-}
-
-
-
 .tabelabusca{
-    width: 83%;
-    height: auto;
-    margin-left: 8%;
+    width: 90%;
+    margin-left: 5%;
     background-color: #FFF;
     border-radius: 10px;
+    padding: 1%;
+    display: inline-block;
+
 }
 
-.espacotabela {
-width: 100%;    
-padding: 0% 0% 1% 0%;
-border-radius: 10px;
-margin-top: 1%;
+.linhacabecalho {
+    width: 95%;
+    display: inline-flex;
+    padding: 0% 2% 0% 2%;
 }
 
-.espacotabela th {
-    color: #3633F7;
-    background-color: rgba(233, 233, 233, 0.938);
-    padding: 15px 35px;
-    line-height: 30px;  
+.linhacorpo {
+    width: 50%;
+    display: inline-flex;
+
+}
+
+.primeiracoluna {
+    background-color: #5c5ba0;
+    padding-top: 5%;
+}
+
+.colunameio {
+    margin-left: 40%;
+    background-color: #5c5ba0;
 }
 
 
-.espacotabela td{
-  font-size: 16px;
-  width: 90%;
-  background-color: #FFF;
-  color: blueviolet;
-  line-height: 60%;
-  padding: 2% 3%;
-  
-}
 
-.hash {
-    text-align: left;
-    margin-left: 2%; 
-}
 
 /* FIM TABELA BUSCA*/
 
@@ -105,7 +95,8 @@ margin-top: 1%;
 
 #menu ul li {  
     display: inline;
-    margin-right: 2%;
+    margin-right: 3%;
+    padding: 0%;
     
 }
 
@@ -150,14 +141,14 @@ margin-top: 1%;
 /* MEDIA QUERY */
 
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1024px) {
 
 
     #menu ul{
         margin: 2%;
-        display: inline-flex;
+        display: flex;
         align-items: center;
-        padding-left: 50%;
+        padding-left: 75%;
     }
 
     #menu ul li {
@@ -165,42 +156,33 @@ margin-top: 1%;
         padding-left: 2%;
     }
 
+    .logo {
+        font-size: 12px;
+    }
+
     .buscarealizada {
-        margin-left: 10%;
+        margin-left: 45%;
         font-size: 18px;
     }
 
-    .tabelabusca{
-        width: 90%;
-        margin-left: 10%;
-        background-color: #FFF;
-        border-radius: 10px;
+    .tabelabusca {
+        margin-left: 7%;
+        width: 110%;
+        height: 100%;
     }
-    
+
     .espacotabela {
-    width: 100%;    
-    padding: 0% 0% 1% 0%;
-    border-radius: 10px;
-    margin-top: 1%;
+        margin: 0%;
+        width: auto; 
     }
-    
-    .espacotabela th {
-        color: #3633F7;
-        background-color: rgba(233, 233, 233, 0.938);
-        padding: 15px 35px;
-        line-height: 30px;  
+
+    .espacotabela td {
+        line-height: 30%;
+        width: 100%;
+        padding: 2%;
+
     }
-    
-    
-    .espacotabela td{
-      font-size: 16px;
-      width: 90%;
-      background-color: #FFF;
-      color: blueviolet;
-      line-height: 60%;
-      padding: 2% 3%;
-      
-    }
+
     
 }
 
@@ -211,7 +193,7 @@ margin-top: 1%;
         margin: 2%;
         display: flex;
         align-items: center;
-        padding-left: 45%;
+        padding-left: 65%;
     }
 
     #menu ul li {
@@ -220,7 +202,7 @@ margin-top: 1%;
     }
 
     .logo {
-        font-size: 16px;
+        font-size: 12px;
     }
 
     .buscarealizada {
@@ -230,33 +212,25 @@ margin-top: 1%;
 
     .tabelabusca {
         margin-left: 7%;
-        width: 90%;
+        width: 105%;
         height: 100%;
     }
 
     .espacotabela {
         margin: 0%;
-        width: 100%; 
-    }
-
-    .espacotabela th {
-        color: #3633F7;
-        background-color: rgba(233, 233, 233, 0.938);
-        padding: 3%;
-        line-height: 30px;  
+        width: auto; 
     }
 
     .espacotabela td {
-        line-height: 30%;
-        width: auto;
-        padding: 2% 7%;
-
+        line-height: 40%;
+        width: 100%;
+        padding: 3%;
     }
 
     
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 430px) {
 
 
     #menu ul{
@@ -281,29 +255,26 @@ margin-top: 1%;
     }
 
     .tabelabusca {
-        margin-left: 8%;
-        width: 100%;
+        margin-left: 1%;
+        width: 105%;
+        height: 100%;
     }
 
     .espacotabela {
-        width: 100%; 
+        margin: 0%;
+        width: auto; 
     }
 
     .espacotabela td {
-        width: auto;
-        padding: 5%;
+        line-height: 100%;
+        width: 100%;
+        padding: 7%;
     }
-
-    .hash {
-        text-align: left;
-        margin-right: 10%; 
-    }
-
 
     
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 375px) {
 
 
     #menu ul{
@@ -329,27 +300,18 @@ margin-top: 1%;
 
     .tabelabusca {
         margin-left: 2%;
-        width: 110%;
+        width: 100%;
+        height: 100%;
     }
 
     .espacotabela {
-        width: 100%; 
-    }
-
-    .espacotabela th {
-        padding: 5%;
-    
+        width: auto; 
     }
 
     .espacotabela td {
-        width: auto;
-        padding: 5%;
-    }
-
-
-    .hash {
-        text-align: left;
-        margin-right: 10%; 
+        line-height: 100%;
+        width: 100%;
+        padding: 7%;
     }
 
     
@@ -383,6 +345,7 @@ margin-top: 1%;
     }
 
     .espacotabela {
+        margin: auto;
         width: 100%; 
     }
 
@@ -395,9 +358,13 @@ margin-top: 1%;
         width: 20%;
         padding: 7%;
     }
+
+
     
 }
 
-/* FIM --MEDIA QUERY */
+
+
+/* FIM --MEDIA QUERY PARA MENOR QUE 600px */
 
 
