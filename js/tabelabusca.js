@@ -1,5 +1,4 @@
 
-
 var obj_ajax = [
     {id: 1, tag: "hashtagname", data: "data ", hora: "hora "},
     {id: 2, tag: "hashtagname", data: "data ", hora: "hora "},
@@ -26,7 +25,6 @@ function addnovoitem(){
 }
 
 addnovoitem();
-
 
 window.onscroll = function(ev) {
     if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
