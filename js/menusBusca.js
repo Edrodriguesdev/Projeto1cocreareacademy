@@ -26,11 +26,9 @@ function validar(){
         formuser.campo.focus();
         return false;
     }
-
     if(campo == "#"){
-       return formuser.hashTag.value("");
+    return formuser.hashTag.value("");
     }
-    
     if(tamanho <= 3){
         alert('Digite mais !');
         formuser.hashTag.focus();
@@ -42,8 +40,11 @@ function validar(){
         formuser.hashTag.focus();
         return false;
     }
-
-  
-
+}
+//Retira a # em qualquer lugar do input//
+function caractereEspecial() {
+    if(hashTag.value.match(/[#]/)){
+    hashTag.value=hashTag.value.replace(/[#]/g,"");
+    }
 }
 /* Fim validação do campo de busca */
