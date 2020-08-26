@@ -4,7 +4,15 @@ let posts  = [
   {
     userImg:"https://pbs.twimg.com/profile_images/1295966615520059392/HLN6ikfJ_400x400.jpg",
     userName:"Leandro",
-    twitterUserName:"@Leandro",
+    twitterUserName:"@PatossauroPex",
+    post:"Lorem Ipsum is simply dummy text of the printing and typesett ingindustry..",
+    link: "https://twitter.com/",
+  },
+
+  {
+    userImg:"https://pbs.twimg.com/profile_images/1296595357145739264/xptgXsN0_400x400.jpg",
+    userName:"Braia",
+    twitterUserName:"@ehOBraia",
     post:"Lorem Ipsum is simply dummy text of the printing and typesett ingindustry..",
     link: "https://twitter.com/",
   },
@@ -18,7 +26,7 @@ let posts  = [
   },
 
   {
-      userImg:"https://pbs.twimg.com/profile_images/1297618402073337856/y5eQ0pao_400x400.jpg",
+      userImg:"https://pbs.twimg.com/profile_images/1164830429448269826/HNi35k2P_400x400.jpg",
       userName:"Davi",
       twitterUserName:"@Davi",
       post:"Lorem Ipsum is simply dummy text of the printing and typesett ingindustry..",
@@ -98,7 +106,7 @@ let posts  = [
   },
 
   {
-    userImg:"https://pbs.twimg.com/profile_images/1296624596804874241/u5Jvg9Z__400x400.jpg",
+    userImg:"https://pbs.twimg.com/profile_images/1164830429448269826/HNi35k2P_400x400.jpg",
     userName:"Nicolas",
     twitterUserName:"@Nicolas",
     post:"Lorem Ipsum is simply dummy text of the printing and typesett ingindustry..",
@@ -306,15 +314,7 @@ let posts  = [
   },
 
   {
-    userImg:"https://pbs.twimg.com/profile_images/1297618402073337856/y5eQ0pao_400x400.jpg",
-    userName:"Bryan",
-    twitterUserName:"@Bryan",
-    post:"Lorem Ipsum is simply dummy text of the printing and typesett ingindustry..",
-    link: "https://twitter.com/",
-  },
-
-  {
-    userImg:"https://pbs.twimg.com/profile_images/1297374568038965250/ZkIEvzrT_400x400.jpg",
+    userImg:"https://pbs.twimg.com/profile_images/484757681257721857/sPTtx6DQ_400x400.png",
     userName:"Joaquim",
     twitterUserName:"@Joaquim",
     post:"Lorem Ipsum is simply dummy text of the printing and typesett ingindustry..",
@@ -394,7 +394,7 @@ let posts  = [
   },
 
   {
-    userImg:"https://pbs.twimg.com/profile_images/1296624596804874241/u5Jvg9Z__400x400.jpg",
+    userImg:"https://pbs.twimg.com/profile_images/1281663092389285895/u8pt9c1t_400x400.jpg",
     userName:"Davi Luiz",
     twitterUserName:"@Davi Luiz",
     post:"Lorem Ipsum is simply dummy text of the printing and typesett ingindustry..",
