@@ -10,7 +10,7 @@
     position: absolute;
     font-family: 'Rubik';
     width: 100%;
-    height: 7%;
+    height: 60px;
     margin: 0 auto;
     z-index: 2;
 }
@@ -41,12 +41,12 @@
     position: fixed;
     font-family: 'Rubik';
     width: auto;
-    height: 8%;
+    height: 60px;
     left: 0;
     top: 0;
     right: 0;
     background:rgba(255, 255, 255, 0.4);
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(10px);
     z-index: 1;
 }
 .menuSupDesf .linktitulo {
@@ -301,10 +301,9 @@
         font-size: 0.7em;
         font-weight: normal;
     }
-    #linktitulo{
+    .linktitulo{
         margin-top: 20px;
         width: 10%;
-        padding-left: 15px;
         font-size: 0.8em;
     }
     #botaosobre{
@@ -521,7 +520,7 @@
         font-size: 1.0em;
         font-weight: normal;
     }
-    #linktitulo{
+    .linktitulo{
         margin-top: 30px;
         width: 10%;
         padding-left: 15px;
