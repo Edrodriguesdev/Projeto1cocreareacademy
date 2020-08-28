@@ -3,7 +3,7 @@
 html,
 body {
   font-family: "Rubik", sans-serif;
-  background-image: url(/assets/login-bg.jpg);
+  background-image: url(./assets/login-bg.jpg);
 }
 
 .logo {
@@ -69,8 +69,9 @@ h3 {
 }
 
 .acessar {
-  height: 30px;
-  width: 130px;
+  margin-top: 5%;
+  padding: 3%;
+  width: 35%;
   border-radius: 100px;
   color: white;
   background-color: #3633f7;
@@ -79,15 +80,6 @@ h3 {
   cursor: pointer;
   margin-bottom: 20px;
   font-weight: bold;
-  outline: none;
-}
-
-.link{
-  margin-top: 5%;
-  padding: 3%;
-  width: 35%;
-  height: 50px;
-  outline: none;
 }
 .acessar:hover {
   transform: scale(1.1);
@@ -113,6 +105,10 @@ input[type="password" i] {
   margin-left: 25%;
   display: flex;
   justify-content: center;
+}
+
+#erro {
+  color: red;
 }
 
 @media (max-width: 600px) {
