@@ -52,11 +52,7 @@
   	background-color: white;
   	width:120px;
 	height:64px;
-<<<<<<< HEAD
-	margin-top: 5%;
-=======
-	margin-top: 7%;
->>>>>>> menus_busca
+	margin-top:5%;
   	border-radius:32px;
 	box-shadow: 0 0 10px rgba(138,74,211,0.4);
 }
@@ -69,11 +65,7 @@
 	color: rgba(255, 255, 255, 0.1);
   	width:120px;
 	height:64px;
-<<<<<<< HEAD
-	margin-top: 5%;
-=======
-	margin-top: 7%;
->>>>>>> menus_busca
+	margin-top:5%;
   	border-radius:32px;
 	box-shadow: 0 0 10px rgba(138,74,211,0.4);
 }
@@ -91,7 +83,6 @@ font-weight: bold;
 	text-align: center;
 }
 
-<<<<<<< HEAD
 /**Estilizando o modal e o zoom**/
 #modal_img{
     width: 80%;
@@ -150,8 +141,6 @@ font-weight: bold;
 
 }
 
-=======
->>>>>>> menus_busca
 /**estilizando o slider de imagens**/
 .sessaoSlider{
 	max-width:1686px;
@@ -168,15 +157,8 @@ font-weight: bold;
 
 .imgSingle{
 	width: 100%;
-<<<<<<< HEAD
 	height: 280px;
     overflow: hidden;
-=======
-	height: 255px;
-	padding-top:100%;
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
->>>>>>> menus_busca
 	border:10px solid white;
 	border-radius: 21px;
 	opacity: 1;
@@ -266,29 +248,12 @@ font-weight: bold;
 	border:none;
 }
 
-<<<<<<< HEAD
-=======
-	/**Estilizando footer**/
-footer{
-	width: 100%;
-    height: 70px;
-    background: #D842BD 0% 0% no-repeat padding-box;
-    display: flex;
-	margin-top: 40px;
-    align-items: center;
-    justify-content: center;
-    color: #ffffff;
-    font-family: 'Rubik';
-}
-
->>>>>>> menus_busca
 @media screen and (max-width: 1280px) and (min-width: 1025px){
 	.chamada{
 		padding-top: 40px;
 	}
 
 	.flexImg{
-<<<<<<< HEAD
 		margin: 0 auto;
 		max-width: 1100px;
 		display: flex;
@@ -297,25 +262,11 @@ footer{
 	.imgSingle{
 		max-width:250px;
 		max-height:200px;
-=======
-	margin: 0 auto;
-	max-width: 1100px;
-	display: flex;
-	}
-
-	.imgSingle{
-	max-width:250px;
-	max-height:200px;
->>>>>>> menus_busca
 	
 	}
 
 	.texto .nomeUsuario{
-<<<<<<< HEAD
 		font-size: 13px;
-=======
-	font-size: 13px;
->>>>>>> menus_busca
 }
 
 	.texto .usuarioPost{
@@ -328,7 +279,6 @@ footer{
 	}
 
 	.tweet{
-<<<<<<< HEAD
 		max-width: 500px;
 		max-height: 180px;
 	}
@@ -344,10 +294,6 @@ footer{
 		font-size: 20px;
 		color: #292929;
 		opacity: 0.43;
-=======
-	max-width: 500px;
-	max-height: 180px;
->>>>>>> menus_busca
 	}
 
 	.tweet p{
@@ -369,22 +315,6 @@ footer{
 
 @media screen and (max-width: 1024px) and (min-width: 769px){
 
-<<<<<<< HEAD
-=======
-    footer{
-        height: 50px;
-        background: #D842BD 0% 0% no-repeat padding-box;
-        display: flex;   
-        align-items: center;
-        justify-content: center;
-        color: #ffffff;
-        font-family: 'Rubik';
-        font-weight: normal;
-        font-size: 0.8em;
-    }
-
-
->>>>>>> menus_busca
 	.flexImg{
 		margin: 0 auto;
 		max-width: 800px;
