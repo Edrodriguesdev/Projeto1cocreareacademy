@@ -1,14 +1,14 @@
 
 var obj_ajax = [
-    {id: 1, tag: "hashtagname", data: "data ", hora: "hora "},
-    {id: 2, tag: "hashtagname", data: "data ", hora: "hora "},
-    {id: 3, tag: "hashtagname", data: "data ", hora: "hora "},
-    {id: 4, tag: "hashtagname", data: "data ", hora: "hora "},
-    {id: 5, tag: "hashtagname", data: "data ", hora: "hora "},
-    {id: 6, tag: "hashtagname", data: "data ", hora: "hora "},
-    {id: 7, tag: "hashtagname", data: "data ", hora: "hora "},
-    {id: 8, tag: "hashtagname", data: "data ", hora: "hora "},
-    {id: 9, tag: "hashtagname", data: "data ", hora: "hora "},
+    {id: 1, tag: "hashtagname", data: "data", hora: "hora"},
+    {id: 2, tag: "hashtagname", data: "data", hora: "hora"},
+    {id: 3, tag: "hashtagname", data: "data", hora: "hora"},
+    {id: 4, tag: "hashtagname", data: "data", hora: "hora"},
+    {id: 5, tag: "hashtagname", data: "data", hora: "hora"},
+    {id: 6, tag: "hashtagname", data: "data", hora: "hora"},
+    {id: 7, tag: "hashtagname", data: "data", hora: "hora"},
+    {id: 8, tag: "hashtagname", data: "data", hora: "hora"},
+    {id: 9, tag: "hashtagname", data: "data", hora: "hora"},
     {id: 10, tag: "tag final", data: "data final", hora: "data final"},
     
 ]
