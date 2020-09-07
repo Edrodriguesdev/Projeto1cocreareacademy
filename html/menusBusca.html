@@ -1,0 +1,242 @@
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/menusBusca.css">
+    <link rel="stylesheet"href="../css/slick.css" />
+	<link rel="stylesheet" href="../css/styleslider.css" />
+</head>
+<body>
+<!--Cabeçalho do site, botões de login e sobre, imagem do background-->
+    <header class="menuSup">
+        <div class="linktitulo">
+            <span><a href="/">hashtag<strong>finder</strong></a></span>
+        </div>
+        <div class="menu">
+            <a href="/html/sobre.html">
+                <button class="botaomenu" id="botaosobre">
+                    <b>SOBRE</b>
+                </button>
+            </a>
+            <a href="/html/login.html">
+                <button class="botaomenu" id="botaologin">
+                    <b>LOGIN</b>
+                </button>
+            </a>
+        </div>
+        <div class="clear"></div>
+    </header>
+<!--Plano de fundo-->
+<div class="bg">
+    <div id="titulo">
+        <h1 id="ttit">Encontre hashtags
+            de maneira fácil</h1>
+    </div>
+    <div id="descricao">
+        <h4 id="tdesc">Digite o que deseja no campo de buscas e
+            confira os resultados do Twitter abaixo</h4>
+    </div>
+</div>
+<!--início da barra de pesquisa-->
+<form onsubmit="return validar()" name="formuser" action="#">
+    <div id="pesq">
+        <div class="barPesquisa">
+            <button class="botao" type="submit" id="botao3"><i class="search"></i>
+            </button>
+                <input type="search" onkeyup="caractereEspecial()" name="hashTag" id="hashTag" class="form-control" placeholder="Buscar...">
+        </div>
+    </div>
+</form>
+
+<!--Fim da barra de pesquisa-->
+<!--criando sessão chamada-->
+<Div class="chamada">
+    <h1>Exibindo os 10 resultados mais recentes para #natureza</div></h1>
+</Div>
+
+<!-- sessão dos sliders de imagens dos usuarios -->
+<div class="sessaoSlider">
+    <div class="flexImg">
+    <!-- imagens de busca e o texto do username -->
+    <div class="imgUnica">
+        <div style="background-image: url(../assets/img1.jpg);" class="imgSingle"></div>
+        <div class="texto"><p class="nomeUsuario">Postado por:</p><p class="usuarioPost">@twitterusername1</p></div>
+    </div>
+
+    <div class="imgUnica">
+			<img class="imgSingle" src="../assets/img1.jpg">
+			<div class="texto"><p class="nomeUsuario">Postado por:</p><p class="usuarioPost">@twitterusername1</p></div>
+		</div>
+
+		<div class="imgUnica">
+			<img class="imgSingle" src="../assets/img2.jpg">
+			<div class="texto"><p class="nomeUsuario">Postado por:</p><p class="usuarioPost">@twitterusername1</p></div>
+		</div>
+
+		<div class="imgUnica">
+			<img class="imgSingle" src="../assets/img3.jpg">
+			<div class="texto"><p class="nomeUsuario">Postado por:</p><p class="usuarioPost">@twitterusername1</p></div>
+		</div>
+
+		<div class="imgUnica">
+			<img class="imgSingle" src="../assets/img4.jpg">
+			<div class="texto"><p class="nomeUsuario">Postado por:</p><p class="usuarioPost">@twitterusername1</p></div>
+		</div>
+
+		<div class="imgUnica">
+			<img class="imgSingle" src="../assets/img5.jpg">
+			<div class="texto"><p class="nomeUsuario">Postado por:</p><p class="usuarioPost">@twitterusername1</p></div>
+		</div>
+
+		<div class="imgUnica">
+			<img class="imgSingle" src="../assets/img6.jpg">
+			<div class="texto"><p class="nomeUsuario">Postado por:</p><p class="usuarioPost">@twitterusername1</p></div>
+		</div>
+
+		<div class="imgUnica">
+			<img class="imgSingle" src="../assets/img7.jpg">
+			<div class="texto"><p class="nomeUsuario">Postado por:</p><p class="usuarioPost">@twitterusername1</p></div>
+		</div>
+
+		<div class="imgUnica">
+			<img class="imgSingle" src="../assets/img8.jpg">
+			<div class="texto"><p class="nomeUsuario">Postado por:</p><p class="usuarioPost">@twitterusername1</p></div>
+		</div>
+
+		<div class="imgUnica">
+			<img class="imgSingle" src="../assets/img9.jpg">
+			<div class="texto"><p class="nomeUsuario">Postado por:</p><p class="usuarioPost">@twitterusername1</p></div>
+		</div>
+
+		<div class="imgUnica">
+			<img class="imgSingle" src="../assets/img10.jpg">
+			<div class="texto"><p class="nomeUsuario">Postado por:</p><p class="usuarioPost">@twitterusername1</p></div>
+		</div>
+
+    </div>
+</div>
+
+<!--criando a sessão do tweets dos usuarios-->
+<div class="tweetUsuarios">
+
+    <div class="tweet">
+			<img src="../assets/images.png" alt="usuario1" />
+			<h1>UserName</h1>
+			<h3>@twitterusername</h3>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesett ingindustry.. 
+				Lorem Ipsum is simply dummy text of the printing and </p>
+			<button>Ver mais no Twitter</button>
+		</div>
+
+		<div class="tweet">
+			<img src="../assets/images.png" alt="usuario2" />
+			<h1>UserName</h1>
+			<h3>@twitterusername</h3>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesett ingindustry.. 
+				Lorem Ipsum is simply dummy text of the printing and </p>
+			<button>Ver mais no Twitter</button>
+		</div>
+
+		<div class="tweet">
+			<img src="../assets/images.png" alt="usuario3" />
+			<h1>UserName</h1>
+			<h3>@twitterusername</h3>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesett ingindustry.. 
+				Lorem Ipsum is simply dummy text of the printing and </p>
+			<button>Ver mais no Twitter</button>
+		</div>
+
+		<div class="tweet">
+			<img src="../assets/images.png" alt="usuario4" />
+			<h1>UserName</h1>
+			<h3>@twitterusername</h3>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesett ingindustry.. 
+				Lorem Ipsum is simply dummy text of the printing and </p>
+			<button>Ver mais no Twitter</button>
+		</div>
+
+		<div class="tweet">
+			<img src="../assets/images.png" alt="usuario5" />
+			<h1>UserName</h1>
+			<h3>@twitterusername</h3>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesett ingindustry.. 
+				Lorem Ipsum is simply dummy text of the printing and </p>
+			<button>Ver mais no Twitter</button>
+		</div>
+
+		<div class="tweet">
+			<img src="../assets/images.png" alt="usuario6" />
+			<h1>UserName</h1>
+			<h3>@twitterusername</h3>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesett ingindustry.. 
+				Lorem Ipsum is simply dummy text of the printing and </p>
+			<button>Ver mais no Twitter</button>
+		</div>
+
+		<div class="tweet">
+			<img src="../assets/images.png" alt="usuario7" />
+			<h1>UserName</h1>
+			<h3>@twitterusername</h3>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesett ingindustry.. 
+				Lorem Ipsum is simply dummy text of the printing and </p>
+			<button>Ver mais no Twitter</button>
+		</div>
+
+		<div class="tweet">
+			<img src="../assets/images.png" alt="usuario8" />
+			<h1>UserName</h1>
+			<h3>@twitterusername</h3>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesett ingindustry.. 
+				Lorem Ipsum is simply dummy text of the printing and </p>
+			<button>Ver mais no Twitter</button>
+		</div>
+
+		<div class="tweet">
+			<img src="../assets/images.png" alt="usuario9" />
+			<h1>UserName</h1>
+			<h3>@twitterusername</h3>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesett ingindustry.. 
+				Lorem Ipsum is simply dummy text of the printing and </p>
+			<button>Ver mais no Twitter</button>
+		</div>
+
+		<div class="tweet">
+			<img src="../assets/images.png" alt="usuario10" />
+			<h1>UserName</h1>
+			<h3>@twitterusername</h3>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesett ingindustry.. 
+				Lorem Ipsum is simply dummy text of the printing and </p>
+			<button>Ver mais no Twitter</button>
+		</div>
+
+  	</div><!--tweetUsuarios-->
+
+<!-- Mensagem de erro
+<div class="erro">
+    <h2 id="oerro">
+        Esta busca não gerou resultados
+    </h2>
+    <h4 id="textoerro">
+        Não há resultados para os termos que 
+    você digitou. Você pode ter digitado errado ou suas 
+    configurações de busca podem estar ajustadas para proteger 
+    você de algum conteúdo potencialmente sensível.
+    </h4>
+        <a href="#">
+            <button id="botaoerro">
+                <strong>VOLTAR</strong>
+            </button>
+        </a>
+    </div>
+</div>
+-->
+<footer>@Cocreare 2020. Todos os direitos reservados
+</footer>
+<script src="../js/jquery.js"></script>
+<script src="../js/slick.js"></script>
+<script src="../js/slides.js"></script>
+<script src="../js/zoomimg.js"></script>
+<script type="text/javascript" src="/js/menusBusca.js"></script>
+</body>
+</html>
