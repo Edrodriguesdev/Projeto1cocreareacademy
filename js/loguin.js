@@ -15,5 +15,6 @@ function validateForm() {
   } else {
     document.getElementById("erro").style.display = "block";
     alert("Credenciais inválidas");
+    return false;
   }
 }

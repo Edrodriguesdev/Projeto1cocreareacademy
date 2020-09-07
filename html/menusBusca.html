@@ -39,13 +39,16 @@
     </div>
 </div>
 <!--início da barra de pesquisa-->
-<div id="pesq">
-    <div class="barPesquisa">
-        <button class="botao" type="submit" id="botao3"><i class="search"></i>
-        </button>
-            <input type="search" name="hashTag" id="hashTag" value="" class="form-control" placeholder="Buscar..." required>
-            </div>
-</div>
+<form onsubmit="return validar()" name="formuser" action="#">
+    <div id="pesq">
+        <div class="barPesquisa">
+            <button class="botao" type="submit" id="botao3"><i class="search"></i>
+            </button>
+                <input type="search" onkeyup="caractereEspecial()" name="hashTag" id="hashTag" class="form-control" placeholder="Buscar...">
+        </div>
+    </div>
+</form>
+
 <!--Fim da barra de pesquisa-->
 <!--criando sessão chamada-->
 <Div class="chamada">
