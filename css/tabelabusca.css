@@ -4,6 +4,8 @@
 ---------------*/
 
 body { background-image: url("../assets/login-bg.jpg"); 
+    background-attachment: fixed;
+    background-size: cover;
     font-family: 'Rubik', sans-serif;
 }
 
